@@ -1,23 +1,22 @@
 package code;
 
-import java.util.HashMap;
-
-public class App {
+public class App2 {
     public static void main(String[] args) {
-        HashMap<String, String> map = new HashMap<String, String>();
-       // App map = new App();
-        map.put("赵","赵");
+        HashMap<String, String> map = new code.HashMap<String, String>();
         map.put("钱","钱");
-        map.put("孙","孙");
         map.put("李","李");
-        map.put("王","王");
+        map.put("周","周");
+        map.put("孙","孙");
         map.put("余","余");
-        map.put("柠","柠");
         map.put("周","周");
         map.put("吴","吴");
         map.put("郑","郑");
         map.put("code","深入学习hashmap的原理");
-        //System.out.println(map.get("code"));
+        map.put("code1","深入学习hashmap的原理");
+        map.put("code17","深入学习hashmap的原理");
+        System.out.println(map.get("code"));
+        System.out.println(map.get("周"));
+        System.out.println(map.get("1"));
     }
 
     public static void put(String key,String value) {
