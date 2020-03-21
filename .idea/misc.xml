@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/hashmap/pom.xml" />
         <option value="$PROJECT_DIR$/jvm/pom.xml" />
+        <option value="$PROJECT_DIR$/thread/pom.xml" />
       </list>
     </option>
   </component>
