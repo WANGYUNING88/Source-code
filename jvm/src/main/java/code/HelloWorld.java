@@ -12,6 +12,7 @@ public class HelloWorld {
      */
     public static void main(String[] args) {
         HelloWorld helloWorld = new HelloWorld();
+        HelloWorld helloWorld1 = new HelloWorld();
         int result = helloWorld.add();
         System.out.println(result);
     }
